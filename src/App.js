@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import CrudApi from "./components/CrudApi";
+// import ConceptosBasicos from "./components/ConceptosBasicos";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div>
+      <h1>React Router</h1>
+      <p>
+        React Router v6{" "}
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://reactrouter.com/docs/en/v6"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
+          style={{ paddingRight: 0 }}
         >
-          Learn React
+          Documentation
         </a>
-      </header>
+        .
+      </p>
+
+      <hr />
+      <CrudApi />
+      {/* <hr />
+      <ConceptosBasicos /> */}
     </div>
   );
 }
