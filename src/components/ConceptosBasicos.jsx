@@ -33,7 +33,7 @@ export default function ConceptosBasicos() {
 
   return (
     <div>
-      <h2>Hash Router #</h2>
+      {/* <h2>Hash Router #</h2>
       <HashRouter>
         <nav>
           <Link to="/">Home</Link>
@@ -47,7 +47,7 @@ export default function ConceptosBasicos() {
           <Route path="*" element={<Error404 />} />
         </Routes>
       </HashRouter>
-      <hr />
+      <hr /> */}
       <h2>Basic Concepts</h2>
       <Router>
         <Routes>

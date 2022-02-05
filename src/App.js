@@ -1,5 +1,5 @@
-import CrudApi from "./components/CrudApi";
-// import ConceptosBasicos from "./components/ConceptosBasicos";
+// import CrudApi from "./components/CrudApi";
+import ConceptosBasicos from "./components/ConceptosBasicos";
 
 function App() {
   return (
@@ -18,10 +18,10 @@ function App() {
         .
       </p>
 
-      <hr />
-      <CrudApi />
       {/* <hr />
-      <ConceptosBasicos /> */}
+      <CrudApi /> */}
+      <hr />
+      <ConceptosBasicos />
     </div>
   );
 }
